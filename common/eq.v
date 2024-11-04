@@ -12,8 +12,8 @@ endmodule
 
 // A module to test if two 2-bit signals are equal.
 module eq2(
-	input wire a[1:0],
-	input wire b[1:0],
+	input wire [1:0] a,
+	input wire [1:0] b,
 	output wire o
 );
 	wire x, y;
